@@ -1,0 +1,4 @@
+# Enable Bzlmod for every Bazel command
+common --enable_bzlmod
+
+build --action_env=BAZEL_CXXOPTS="-std=c++20"

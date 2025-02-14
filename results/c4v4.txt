@@ -1,0 +1,34 @@
+exhaustive exploration C=4 V=4
+
+279 loops found after 1048576/3.15315e+07
+shortest game with cycle (24):
+cartes_joueur1=[1,1,1,1,3,2,3,4,]
+cartes_joueur2=[2,4,4,3,2,2,3,4,]
+longest game (141):
+cartes_joueur1=[1,1,1,3,4,2,2,4,]
+cartes_joueur2=[3,4,1,2,4,2,3,3,]
+time: 0s
+1109 loops found after 4194304/3.15315e+07
+shortest game with cycle (24):
+cartes_joueur1=[1,1,1,1,3,2,3,4,]
+cartes_joueur2=[2,4,4,3,2,2,3,4,]
+longest game (144):
+cartes_joueur1=[1,2,1,1,2,3,4,4,]
+cartes_joueur2=[2,4,3,1,2,4,3,3,]
+time: 1s
+2386 loops found after 9437184/3.15315e+07
+shortest game with cycle (24):
+cartes_joueur1=[1,1,1,1,3,2,3,4,]
+cartes_joueur2=[2,4,4,3,2,2,3,4,]
+longest game (145):
+cartes_joueur1=[1,3,2,2,1,2,1,4,]
+cartes_joueur2=[4,4,3,4,1,2,3,3,]
+time: 3s
+8235 loops found after 31531501/3.15315e+07
+shortest game with cycle (24):
+cartes_joueur1=[1,1,1,1,3,2,3,4,]
+cartes_joueur2=[2,4,4,3,2,2,3,4,]
+longest game (145):
+cartes_joueur1=[1,3,2,2,1,2,1,4,]
+cartes_joueur2=[4,4,3,4,1,2,3,3,]
+total time: 12s

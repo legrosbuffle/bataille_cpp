@@ -1,0 +1,59 @@
+random exploration C=1 V=22
+
+seed=1031643915
+8451 loops found after 1048576/5.62e+20
+shortest game with cycle (240):
+cartes_joueur1=[17,6,11,9,13,16,4,20,12,14,8,]
+cartes_joueur2=[1,18,3,10,7,21,15,2,19,22,5,]
+longest game (893):
+cartes_joueur1=[11,15,3,12,19,20,6,18,8,22,2,]
+cartes_joueur2=[5,13,1,7,9,14,4,21,17,10,16,]
+time: 1s
+25566 loops found after 3145728/5.62e+20
+shortest game with cycle (240):
+cartes_joueur1=[17,6,11,9,13,16,4,20,12,14,8,]
+cartes_joueur2=[1,18,3,10,7,21,15,2,19,22,5,]
+longest game (1003):
+cartes_joueur1=[17,9,5,20,14,2,10,21,11,8,3,]
+cartes_joueur2=[22,18,15,7,6,4,12,13,16,19,1,]
+time: 3s
+34048 loops found after 4194304/5.62e+20
+shortest game with cycle (240):
+cartes_joueur1=[17,6,11,9,13,16,4,20,12,14,8,]
+cartes_joueur2=[1,18,3,10,7,21,15,2,19,22,5,]
+longest game (1171):
+cartes_joueur1=[15,2,10,11,13,1,20,17,12,21,19,]
+cartes_joueur2=[9,14,16,8,5,3,7,4,22,6,18,]
+time: 4s
+177206 loops found after 22020096/5.62e+20
+shortest game with cycle (240):
+cartes_joueur1=[17,6,11,9,13,16,4,20,12,14,8,]
+cartes_joueur2=[1,18,3,10,7,21,15,2,19,22,5,]
+longest game (1209):
+cartes_joueur1=[17,1,20,21,12,18,16,19,9,3,13,]
+cartes_joueur2=[22,10,4,6,15,14,5,7,8,11,2,]
+time: 25s
+1314770 loops found after 163577856/5.62e+20
+shortest game with cycle (240):
+cartes_joueur1=[17,6,11,9,13,16,4,20,12,14,8,]
+cartes_joueur2=[1,18,3,10,7,21,15,2,19,22,5,]
+longest game (1339):
+cartes_joueur1=[14,3,20,22,17,5,15,19,10,2,13,]
+cartes_joueur2=[16,18,7,6,12,4,9,11,21,1,8,]
+time: 192s
+5739666 loops found after 714080256/5.62e+20
+shortest game with cycle (240):
+cartes_joueur1=[17,6,11,9,13,16,4,20,12,14,8,]
+cartes_joueur2=[1,18,3,10,7,21,15,2,19,22,5,]
+longest game (1383):
+cartes_joueur1=[3,5,15,12,11,2,9,20,21,10,19,]
+cartes_joueur2=[4,22,6,14,7,16,17,18,8,1,13,]
+time: 880s
+9678339 loops found after 1203765248/5.62e+20
+shortest game with cycle (240):
+cartes_joueur1=[17,6,11,9,13,16,4,20,12,14,8,]
+cartes_joueur2=[1,18,3,10,7,21,15,2,19,22,5,]
+longest game (1391):
+cartes_joueur1=[11,4,13,14,16,3,18,21,8,17,15,]
+cartes_joueur2=[19,10,6,20,12,2,9,5,7,22,1,]
+time: 1502s

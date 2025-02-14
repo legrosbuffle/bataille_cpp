@@ -1,0 +1,7 @@
+exhaustive exploration C=1 V=1
+
+0 loops found after 1/1
+longest game (0):
+cartes_joueur1=[]
+cartes_joueur2=[]
+total time: 0s

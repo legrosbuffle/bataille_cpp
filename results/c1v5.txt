@@ -1,0 +1,10 @@
+exhaustive exploration C=1 V=5
+
+30 loops found after 120/120
+shortest game with cycle (6):
+cartes_joueur1=[1,4,]
+cartes_joueur2=[5,2,3,]
+longest game (8):
+cartes_joueur1=[1,4,]
+cartes_joueur2=[2,3,5,]
+total time: 0s

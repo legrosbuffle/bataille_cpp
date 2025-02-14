@@ -1,0 +1,10 @@
+exhaustive exploration C=4 V=3
+
+388 loops found after 17326/17325
+shortest game with cycle (19):
+cartes_joueur1=[1,1,1,1,2,3,]
+cartes_joueur2=[2,3,3,3,2,2,]
+longest game (37):
+cartes_joueur1=[2,1,3,1,3,2,]
+cartes_joueur2=[2,3,3,1,1,2,]
+total time: 0s

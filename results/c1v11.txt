@@ -1,0 +1,18 @@
+exhaustive exploration C=1 V=11
+
+662293 loops found after 1048576/3.99168e+07
+shortest game with cycle (12):
+cartes_joueur1=[1,2,3,4,8,]
+cartes_joueur2=[5,9,10,11,6,7,]
+longest game (41):
+cartes_joueur1=[1,2,6,10,4,]
+cartes_joueur2=[8,5,7,9,3,11,]
+time: 0s
+28223770 loops found after 39916800/3.99168e+07
+shortest game with cycle (12):
+cartes_joueur1=[1,2,3,4,8,]
+cartes_joueur2=[5,9,10,11,6,7,]
+longest game (41):
+cartes_joueur1=[1,2,6,10,4,]
+cartes_joueur2=[8,5,7,9,3,11,]
+total time: 10s

@@ -1,0 +1,202 @@
+exhaustive exploration C=4 V=5
+
+0 loops found after 1048576/1.5277e+11
+longest game (422):
+cartes_joueur1=[1,1,1,1,2,2,2,4,3,5,]
+cartes_joueur2=[3,4,2,4,5,3,4,5,5,3,]
+time: 0s
+0 loops found after 2097152/1.5277e+11
+longest game (431):
+cartes_joueur1=[1,1,1,1,2,2,4,3,2,5,]
+cartes_joueur2=[3,5,5,4,2,3,4,3,5,4,]
+time: 1s
+0 loops found after 9437184/1.5277e+11
+longest game (440):
+cartes_joueur1=[1,1,1,1,2,4,3,5,2,4,]
+cartes_joueur2=[5,3,4,3,2,4,5,5,2,3,]
+time: 5s
+0 loops found after 76546048/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 46s
+0 loops found after 4294967296/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 2612s
+0 loops found after 8589934592/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 5243s
+0 loops found after 12884901888/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 7830s
+0 loops found after 17179869184/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 10753s
+0 loops found after 21474836480/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 13727s
+0 loops found after 25769803776/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 16887s
+0 loops found after 30064771072/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 20058s
+0 loops found after 34359738368/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 23265s
+0 loops found after 38654705664/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 26352s
+0 loops found after 42949672960/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 29625s
+0 loops found after 47244640256/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 32483s
+0 loops found after 51539607552/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 35558s
+0 loops found after 55834574848/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 38767s
+0 loops found after 60129542144/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 42152s
+0 loops found after 64424509440/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 45371s
+0 loops found after 68719476736/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 48632s
+0 loops found after 73014444032/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 51644s
+0 loops found after 77309411328/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 54827s
+0 loops found after 81604378624/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 57695s
+0 loops found after 85899345920/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 60666s
+0 loops found after 90194313216/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 63500s
+0 loops found after 94489280512/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 66443s
+0 loops found after 98784247808/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 69304s
+0 loops found after 103079215104/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 72365s
+0 loops found after 107374182400/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 75269s
+0 loops found after 111669149696/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 78273s
+0 loops found after 115964116992/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 81530s
+0 loops found after 120259084288/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 84987s
+0 loops found after 124554051584/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 87850s
+0 loops found after 128849018880/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 91076s
+0 loops found after 133143986176/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 94251s
+0 loops found after 137438953472/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 97298s
+0 loops found after 141733920768/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 100398s
+0 loops found after 146028888064/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 103343s
+0 loops found after 150323855360/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+time: 106364s
+0 loops found after 152770117500/1.5277e+11
+longest game (453):
+cartes_joueur1=[1,1,1,2,1,5,3,4,4,5,]
+cartes_joueur2=[2,3,5,3,4,5,2,3,4,2,]
+total time: 108143s

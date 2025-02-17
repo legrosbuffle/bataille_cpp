@@ -98,9 +98,6 @@ class Game {
         r_(deck.num_cards()),
         ties_(std::make_unique<Card[]>(deck.num_cards())) {}
 
-  Game(Deck deck, std::initializer_list<int> l, std::initializer_list<int> r)
-      : Game(deck) {}
-
   // Splits the deck is evenly between left and right: the first half goes to
   // left player. If odd, the first player gets one card less.
   void Deal(std::span<const Card> cards) {

@@ -32,8 +32,8 @@ struct Deck {
 };
 
 enum class Strategy {
-  kNatural,  // Natural strategy.
-  // kOptimized,  // Optimized strategy.
+  kNatural,    // Natural strategy.
+  kOptimized,  // Optimized strategy.
 };
 
 // A hand is a circular array.
@@ -79,8 +79,7 @@ class Hand {
   }
 
   // Add a bunch of cards at the bottom.
-  void PushAll(Card hi, Card lo, std::span<const Card> cards,
-               Strategy strategy);
+  void PushAll(Card hi, Card lo, std::span<Card> cards, Strategy strategy);
 
  private:
   size_t buffer_size() const { return buffer_end_ - buffer_.get(); }
@@ -124,7 +123,7 @@ class Game {
 
   // Does one round (incl. resolving ties) and returns true if any side is
   // empty.
-  bool Step();
+  bool Step(Strategy strategy);
 
   // Given that at least one of the hands is empty, returns the winner.
   Winner GetWinner() const;
@@ -133,6 +132,7 @@ class Game {
   Deck deck() const { return deck_; }
 
  private:
+ friend class GameArena;
   const Deck deck_;
   Hand l_;
   Hand r_;
@@ -150,7 +150,7 @@ class GameArena {
   // Runs the game until the end or until we find a cycle.
   // Left player gets the first half, right player gets the second half. If odd,
   // the first player gets one card less.
-  Game::Result Play(std::span<const Card> cards);
+  Game::Result Play(std::span<const Card> cards, Strategy strategy);
 
   struct Stats {
     Stats(Deck deck);
@@ -174,7 +174,7 @@ class GameArena {
   const Stats& stats() const { return stats_; }
 
  private:
-  Game::Result PlayImpl(std::span<const Card> cards);
+  Game::Result PlayImpl(std::span<const Card> cards, Strategy strategy);
 
   Game slow_;
   Game fast_;

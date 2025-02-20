@@ -1,5 +1,6 @@
 #include "bataille.h"
 
+#include <algorithm>
 #include <cmath>
 #include <cstring>
 #include <iostream>
@@ -50,21 +51,48 @@ bool operator==(const Hand& l, const Hand& r) {
   return lc == lend && rc == rend;
 }
 
-void Hand::PushAll(Card hi, Card lo, std::span<const Card> cards,
-                   Strategy strategy) {
-  assert(strategy == Strategy::kNatural);
+void Hand::PushAll(Card hi, Card lo, std::span<Card> cards, Strategy strategy) {
   assert(lo < hi);
-  Push(hi);
-  Push(lo);
-  // Then in reverse order.
-  if (!cards.empty()) {
-    const Card* const begin = cards.data();
-    const Card* c = begin + cards.size();
-    do {
-      --c;
-      Push(*c);
-      Push(*c);
-    } while (c != begin);
+  if (strategy == Strategy::kNatural) {
+    Push(hi);
+    Push(lo);
+    // Then in reverse order.
+    if (!cards.empty()) {
+      const Card* const begin = cards.data();
+      const Card* c = begin + cards.size();
+      do {
+        --c;
+        Push(*c);
+        Push(*c);
+      } while (c != begin);
+    }
+  } else {
+    assert(strategy == Strategy::kOptimized);
+    if (cards.empty()) {
+      Push(hi);
+      Push(lo);
+    } else {
+      std::sort(cards.begin(), cards.end(), std::greater<>());
+      const Card* c = cards.data();
+      const Card* const end = c + cards.size();
+      while (c != end && hi < *c) {
+        Push(*c);
+        Push(*c);
+        ++c;
+      }
+      Push(hi);
+      while (c != end && lo < *c) {
+        Push(*c);
+        Push(*c);
+        ++c;
+      }
+      Push(lo);
+      while (c != end && c != end) {
+        Push(*c);
+        Push(*c);
+        ++c;
+      }
+    }
   }
 }
 
@@ -74,7 +102,7 @@ std::string Hand::DebugString() const {
     str.append(std::to_string(*c));
     str.push_back(',');
     ++c;
-    if (c == buffer_end_) c = start_;
+    if (c == buffer_end_) c = buffer_.get();
   }
   str.push_back(']');
   return str;
@@ -82,7 +110,7 @@ std::string Hand::DebugString() const {
 
 // Precondition: num_ties_ == 0.
 // Postcondition: num_ties_ == 0.
-bool Game::Step() {
+bool Game::Step(Strategy strategy) {
   assert(num_ties_ == 0);
 
   Card cl = l_.Pop();
@@ -100,10 +128,10 @@ bool Game::Step() {
     cr = r_.Pop();
   }
   if (cr < cl) {
-    l_.PushAll(cl, cr, std::span(ties, num_ties_), Strategy::kNatural);
+    l_.PushAll(cl, cr, std::span(ties, num_ties_), strategy);
   } else {
     // cr > cl.
-    r_.PushAll(cr, cl, std::span(ties, num_ties_), Strategy::kNatural);
+    r_.PushAll(cr, cl, std::span(ties, num_ties_), strategy);
   }
   num_ties_ = 0;
   return l_.empty() || r_.empty();
@@ -136,10 +164,10 @@ GameArena::Stats::Stats(Deck deck)
       // log((C*V)!/(C!)^V) = log((C*V)!) - V * log(C!)
       //                    = lgamma(C*V + 1) - V* log(C + 1)
       num_games(std::exp(std::lgamma(deck.colors * deck.values + 1) -
-                         deck.values * std::lgamma(deck.colors + 1)) /
-                // Note: in the case of an even number of cards, we divide
-                // by two as right and left are symmetric.
-                (deck.num_cards() % 2 == 0 ? 2 : 1)) {}
+                                   deck.values * std::lgamma(deck.colors + 1)) /
+                          // Note: in the case of an even number of cards, we
+                          // divide by two as right and left are symmetric.
+                          (deck.num_cards() % 2 == 0 ? 2 : 1)) {}
 
 void GameArena::Stats::Print(std::ostream& os) const {
   os << num_played_with_cycle << " loops found after " << num_played << "/"
@@ -157,7 +185,8 @@ void GameArena::Stats::Print(std::ostream& os) const {
 
 GameArena::GameArena(Deck deck) : slow_(deck), fast_(deck), stats_(deck) {}
 
-Game::Result GameArena::PlayImpl(std::span<const Card> cards) {
+Game::Result GameArena::PlayImpl(std::span<const Card> cards,
+                                 Strategy strategy) {
   if (cards.size() == 0) {
     return {.winner = Game::Winner::kDraw, .num_steps = 0};
   }
@@ -168,14 +197,15 @@ Game::Result GameArena::PlayImpl(std::span<const Card> cards) {
   slow_.Deal(cards);
   fast_.Deal(cards);
 
-  if (fast_.Step()) return {.winner = fast_.GetWinner(), .num_steps = 1};
+  if (fast_.Step(strategy))
+    return {.winner = fast_.GetWinner(), .num_steps = 1};
 
   unsigned steps = 1;
   while (slow_ != fast_) {
-    slow_.Step();
-    if (fast_.Step())
+    slow_.Step(strategy);
+    if (fast_.Step(strategy))
       return {.winner = fast_.GetWinner(), .num_steps = 2 * steps};
-    if (fast_.Step())
+    if (fast_.Step(strategy))
       return {.winner = fast_.GetWinner(), .num_steps = 2 * steps + 1};
     ++steps;
   }
@@ -183,8 +213,8 @@ Game::Result GameArena::PlayImpl(std::span<const Card> cards) {
   return {.winner = Game::Winner::kCycle, .num_steps = steps};
 }
 
-Game::Result GameArena::Play(std::span<const Card> cards) {
-  const Game::Result result = PlayImpl(cards);
+Game::Result GameArena::Play(std::span<const Card> cards, Strategy strategy) {
+  const Game::Result result = PlayImpl(cards, strategy);
   if (result.winner == Game::Winner::kCycle) {
     ++stats_.num_played_with_cycle;
     if (result.num_steps < stats_.shortest_with_cycle_len) {

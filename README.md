@@ -22,10 +22,10 @@ make explore
 
 Le programme comprend deux modes d'exporation: `exhaustive` (pour les petites valeurs de `C` et `V`) et aléatoire (`random`).
 
-Par exemple, pour faire une exploration exhaustive pour `C=1`,`V=12`:
+Par exemple, pour faire une exploration exhaustive pour `C=1`,`V=12`, stratégie naturelle:
 
 ```
-./explore exhaustive 1 12
+./explore exhaustive natural 1 12
 ```
 
 Les résultats sont écrits dans le fichier `c1v12.txt`.
@@ -33,16 +33,24 @@ Les résultats sont écrits dans le fichier `c1v12.txt`.
 Pour une exploration aléatoire pour `C=4`,`V=8` (jeu standard):
 
 ```
-./explore random 4 8
+./explore random natural 4 8
 ```
 
 Le mode `random` prend un paramètre optionnel `seed` en 4eme argument:
 
 ```
-./explore random 4 8 123456789
+./explore random natural 4 8 123456789
 ```
 
 Les résultats sont écrit dans le fichier `c4v8_<seed>.txt`
+
+Pour la stratégie optimale, utiliser:
+
+```
+./explore random optimized 4 8 123456789
+```
+
+Les résultats sont écrit dans le fichier `c4v8_opt_<seed>.txt`
 
 ## Tests
 

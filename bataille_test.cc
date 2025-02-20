@@ -92,28 +92,29 @@ TEST(Hand, CopyEquality) {
 
 TEST(Hand, SimpleSeq2a) {
   GameArena arena(Deck::Seq(2));
-  const auto result = arena.Play(Cards({1}, {2}));
+  const auto result = arena.Play(Cards({1}, {2}), Strategy::kNatural);
   EXPECT_EQ(result.winner, Game::Winner::kRight);
   EXPECT_EQ(result.num_steps, 1);
 }
 
 TEST(Hand, SimpleSeq2b) {
   GameArena arena(Deck::Seq(2));
-  const auto result = arena.Play(Cards({2}, {1}));
+  const auto result = arena.Play(Cards({2}, {1}), Strategy::kNatural);
   EXPECT_EQ(result.winner, Game::Winner::kLeft);
   EXPECT_EQ(result.num_steps, 1);
 }
 
 TEST(Hand, SimpleWithTie) {
   GameArena arena({.colors = 2, .values = 1});
-  const auto result = arena.Play(Cards({1}, {1}));
+  const auto result = arena.Play(Cards({1}, {1}), Strategy::kNatural);
   EXPECT_EQ(result.winner, Game::Winner::kDraw);
   EXPECT_EQ(result.num_steps, 1);
 }
 
 TEST(Hand, SimpleWithTieThen) {
   GameArena arena({.colors = 2, .values = 3});
-  const auto result = arena.Play(Cards({1, 3, 3}, {1, 2, 2}));
+  const auto result =
+      arena.Play(Cards({1, 3, 3}, {1, 2, 2}), Strategy::kNatural);
   // 1 1; 3 2 -> {3,3,2,1,1} {2}
   // 3 2 -> {3,2,1,1,3,2} {}
   EXPECT_EQ(result.winner, Game::Winner::kLeft);
@@ -122,35 +123,39 @@ TEST(Hand, SimpleWithTieThen) {
 
 TEST(Hand, SimpleDraw) {
   GameArena arena({.colors = 4, .values = 2});
-  const auto result = arena.Play(Cards({1, 1, 2, 2}, {2, 2, 1, 1}));
+  const auto result =
+      arena.Play(Cards({1, 1, 2, 2}, {2, 2, 1, 1}), Strategy::kNatural);
   EXPECT_EQ(result.winner, Game::Winner::kDraw);
   EXPECT_EQ(result.num_steps, 5);
 }
 
 TEST(Hand, LoopC1V5) {
   GameArena arena(Deck::Seq(5));
-  const auto result = arena.Play(Cards({5, 3}, {2, 4, 1}));
+  const auto result = arena.Play(Cards({5, 3}, {2, 4, 1}), Strategy::kNatural);
   EXPECT_EQ(result.winner, Game::Winner::kCycle);
   EXPECT_EQ(result.num_steps, 6);
 }
 
 TEST(Hand, LoopC1V7) {
   GameArena arena(Deck::Seq(7));
-  const auto result = arena.Play(Cards({1, 7, 4}, {5, 3, 6, 2}));
+  const auto result =
+      arena.Play(Cards({1, 7, 4}, {5, 3, 6, 2}), Strategy::kNatural);
   EXPECT_EQ(result.winner, Game::Winner::kCycle);
   EXPECT_EQ(result.num_steps, 8);
 }
 
 TEST(Hand, LoopC1V9) {
   GameArena arena(Deck::Seq(9));
-  const auto result = arena.Play(Cards({9, 5, 8, 1}, {3, 7, 2, 6, 1}));
+  const auto result =
+      arena.Play(Cards({9, 5, 8, 1}, {3, 7, 2, 6, 1}), Strategy::kNatural);
   EXPECT_EQ(result.winner, Game::Winner::kCycle);
   EXPECT_EQ(result.num_steps, 20);
 }
 
 TEST(Hand, LoopC1V10) {
   GameArena arena(Deck::Seq(10));
-  const auto result = arena.Play(Cards({8, 6, 3, 10, 5}, {2, 9, 7, 4, 1}));
+  const auto result =
+      arena.Play(Cards({8, 6, 3, 10, 5}, {2, 9, 7, 4, 1}), Strategy::kNatural);
   EXPECT_EQ(result.winner, Game::Winner::kCycle);
   EXPECT_EQ(result.num_steps, 60);
 }
@@ -158,10 +163,28 @@ TEST(Hand, LoopC1V10) {
 TEST(Hand, NoLoopC1V16) {
   GameArena arena(Deck::Seq(16));
   const auto result = arena.Play(
-      Cards({1, 3, 2, 8, 10, 15, 11, 12}, {4, 6, 16, 13, 9, 14, 5, 7}));
+      Cards({1, 3, 2, 8, 10, 15, 11, 12}, {4, 6, 16, 13, 9, 14, 5, 7}),
+      Strategy::kNatural);
   EXPECT_EQ(result.winner, Game::Winner::kRight);
   EXPECT_EQ(result.num_steps, 90);
 }
+
+TEST(Hand, OptimizedC4V2) {
+  GameArena arena({.colors = 4, .values = 2});
+  const auto result =
+      arena.Play(Cards({2, 2, 1, 1}, {1, 1, 2, 2}), Strategy::kOptimized);
+  EXPECT_EQ(result.winner, Game::Winner::kDraw);
+  EXPECT_EQ(result.num_steps, 5);
+}
+
+TEST(Hand, OptimizedC4V3) {
+  GameArena arena({.colors = 4, .values = 3});
+  const auto result =
+      arena.Play(Cards({3, 2, 2, 2, 3, 3}, {1, 1, 2, 3, 1, 1}), Strategy::kOptimized);
+  EXPECT_EQ(result.winner, Game::Winner::kRight);
+  EXPECT_EQ(result.num_steps, 34);
+}
+
 
 }  // namespace
 }  // namespace bataille

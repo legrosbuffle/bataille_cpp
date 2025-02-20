@@ -4,7 +4,13 @@ Cette page contient mon code pour l'article *Les défis du jeu de la bataille* d
 
 Les auteurs (Philippe Mathieu et Jean-paul Delahaye) ont mis a disposition un dépôt github avec leur code et les records actuels (https://github.com/cristal-smac/bataille).
 
-Ce code est une implémentation du jeu décrit par l'article en C++, centrée sur la performance. Le code (un seul thread) tourne beaucoup plus rapidement que le code original des auteurs (12s pour une recherche exhaustive pour `C=4`, `V=4` sur mon ordinateur portable, au lieu de 46mn pour le code original, et 6s pour explorer aleatoirement 1M de parties pour `C=1`,`V=64` au lieu de 12h pour le code original), ce qui permet des explorations plus poussées. J'ai ainsi pu trouver des records de longueurs pour tous les jeux qui n'avaient pas été explorés exhaustivement (voir [`results/`](./results/)). Il devient aussi raisonnable d'explorer exhaustivement plus de cas (notamment, `C=4`,`V=5`).
+Ce code est une implémentation du jeu décrit par l'article en C++, centrée sur la performance. Le code (un seul thread) tourne beaucoup plus rapidement que le code original des auteurs (12s pour une recherche exhaustive pour `C=4`, `V=4` sur mon ordinateur portable, au lieu de 46mn pour le code original, et 6s pour explorer aleatoirement 1M de parties pour `C=1`,`V=64` au lieu de 12h pour le code original), ce qui permet des explorations plus poussées. J'ai ainsi pu:
+
+ - explorer exhaustivement le cas `C=4`,`V=5`, et vérifier que ce cas n'avait pas de cycles;
+ - trouver des cycles pour le cas `C=4`, `V=11`. 
+ - obtenir de nouveaux records de longueurs pour tous les jeux qui n'avaient pas été explorés exhaustivement.
+
+Les résultats détaillés sont dans le dossier [`results/`](./results/).
 
 ## Utilisation
 

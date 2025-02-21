@@ -1,0 +1,63 @@
+random exploration C=4 V=6
+
+seed=1924483585
+0 loops found after 1048576/1.62334e+15
+longest game (449):
+cartes_joueur1=[6,2,1,6,1,2,3,5,6,5,3,4,]
+cartes_joueur2=[4,2,4,2,1,6,5,4,1,3,3,5,]
+time: 1s
+0 loops found after 5242880/1.62334e+15
+longest game (464):
+cartes_joueur1=[3,4,2,6,4,5,2,4,5,2,3,1,]
+cartes_joueur2=[4,6,1,5,5,6,1,6,1,3,3,2,]
+time: 5s
+0 loops found after 6291456/1.62334e+15
+longest game (473):
+cartes_joueur1=[1,3,6,1,3,4,4,3,1,2,1,3,]
+cartes_joueur2=[6,2,5,2,6,5,5,6,5,4,2,4,]
+time: 6s
+0 loops found after 7340032/1.62334e+15
+longest game (517):
+cartes_joueur1=[2,3,3,6,2,3,2,5,6,5,6,2,]
+cartes_joueur2=[1,6,5,5,1,4,4,1,4,3,1,4,]
+time: 8s
+0 loops found after 13631488/1.62334e+15
+longest game (535):
+cartes_joueur1=[6,6,2,5,4,2,5,4,6,4,2,5,]
+cartes_joueur2=[3,1,2,1,1,3,3,4,6,5,3,1,]
+time: 15s
+0 loops found after 17825792/1.62334e+15
+longest game (537):
+cartes_joueur1=[5,5,4,3,3,4,6,6,1,1,4,1,]
+cartes_joueur2=[5,6,1,2,2,2,2,5,3,6,4,3,]
+time: 19s
+0 loops found after 27262976/1.62334e+15
+longest game (546):
+cartes_joueur1=[3,2,5,1,2,6,2,4,3,3,6,6,]
+cartes_joueur2=[3,4,2,4,1,5,1,5,4,6,5,1,]
+time: 30s
+0 loops found after 40894464/1.62334e+15
+longest game (578):
+cartes_joueur1=[4,6,3,5,5,5,3,2,1,3,5,6,]
+cartes_joueur2=[4,1,4,6,2,1,3,4,1,2,6,2,]
+time: 47s
+0 loops found after 89128960/1.62334e+15
+longest game (598):
+cartes_joueur1=[4,5,2,3,6,1,3,5,3,2,3,2,]
+cartes_joueur2=[1,1,6,4,5,6,1,5,4,2,6,4,]
+time: 105s
+0 loops found after 232783872/1.62334e+15
+longest game (636):
+cartes_joueur1=[3,5,3,4,1,1,4,3,5,3,6,1,]
+cartes_joueur2=[1,6,2,2,5,2,6,5,2,4,4,6,]
+time: 284s
+0 loops found after 316669952/1.62334e+15
+longest game (637):
+cartes_joueur1=[2,6,5,2,3,1,5,4,4,1,1,6,]
+cartes_joueur2=[2,1,3,3,4,2,5,5,6,4,6,3,]
+time: 393s
+0 loops found after 746586112/1.62334e+15
+longest game (640):
+cartes_joueur1=[6,5,3,6,1,1,4,4,2,5,1,1,]
+cartes_joueur2=[5,6,4,3,2,2,4,2,6,3,3,5,]
+time: 906s

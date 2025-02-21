@@ -1,0 +1,38 @@
+random exploration C=4 V=10
+
+seed=2594523780
+0 loops found after 1048576/6.43432e+33
+longest game (1783):
+cartes_joueur1=[4,4,8,5,5,9,7,9,7,2,9,6,9,7,6,8,8,10,3,5,]
+cartes_joueur2=[6,4,5,4,3,6,1,7,1,8,1,10,1,10,2,2,3,10,3,2,]
+time: 3s
+0 loops found after 2097152/6.43432e+33
+longest game (2102):
+cartes_joueur1=[8,8,4,3,3,9,2,9,10,10,4,2,10,3,2,7,6,6,3,9,]
+cartes_joueur2=[5,7,5,10,2,8,4,9,5,7,6,6,1,1,1,8,4,5,7,1,]
+time: 7s
+0 loops found after 3145728/6.43432e+33
+longest game (2147):
+cartes_joueur1=[7,9,5,1,4,4,1,4,9,6,2,9,10,5,7,3,10,3,3,2,]
+cartes_joueur2=[6,3,2,4,7,8,9,10,7,5,1,8,8,1,6,2,10,5,6,8,]
+time: 11s
+0 loops found after 27262976/6.43432e+33
+longest game (2232):
+cartes_joueur1=[4,5,9,10,6,6,5,8,7,10,8,3,7,3,4,9,2,1,2,5,]
+cartes_joueur2=[7,4,7,2,10,5,8,3,6,4,1,2,1,3,10,9,6,8,9,1,]
+time: 111s
+0 loops found after 49283072/6.43432e+33
+longest game (2417):
+cartes_joueur1=[4,4,6,3,3,4,6,9,5,6,3,8,8,7,1,7,1,1,10,9,]
+cartes_joueur2=[8,5,2,5,10,6,4,9,2,5,9,1,2,8,7,10,7,2,3,10,]
+time: 203s
+0 loops found after 113246208/6.43432e+33
+longest game (2713):
+cartes_joueur1=[7,1,7,7,10,1,5,3,1,4,6,3,2,10,6,2,7,8,8,3,]
+cartes_joueur2=[1,10,9,9,5,8,4,6,6,4,2,10,3,8,4,5,2,9,9,5,]
+time: 465s
+0 loops found after 9828302848/6.43432e+33
+longest game (2742):
+cartes_joueur1=[5,6,5,10,2,2,8,8,1,9,4,5,1,4,2,1,4,7,9,1,]
+cartes_joueur2=[3,7,3,3,10,6,2,4,8,3,7,8,6,10,9,7,6,9,5,10,]
+time: 40628s

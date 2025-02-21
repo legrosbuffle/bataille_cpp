@@ -1,0 +1,155 @@
+random exploration C=4 V=7
+
+seed=1278142028
+666 loops found after 1048576/3.32378e+19
+shortest game with cycle (78):
+cartes_joueur1=[6,3,4,5,4,7,7,1,3,6,1,2,6,2,]
+cartes_joueur2=[5,2,5,4,2,1,3,4,1,7,3,5,6,7,]
+longest game (1607):
+cartes_joueur1=[1,7,5,6,3,2,1,3,4,5,4,4,4,2,]
+cartes_joueur2=[6,1,3,1,6,5,7,3,5,2,7,2,7,6,]
+time: 1s
+1312 loops found after 2097152/3.32378e+19
+shortest game with cycle (74):
+cartes_joueur1=[4,4,6,7,5,6,1,5,7,2,2,7,2,3,]
+cartes_joueur2=[3,6,3,6,1,5,1,1,2,4,3,5,4,7,]
+longest game (1607):
+cartes_joueur1=[1,7,5,6,3,2,1,3,4,5,4,4,4,2,]
+cartes_joueur2=[6,1,3,1,6,5,7,3,5,2,7,2,7,6,]
+time: 3s
+3242 loops found after 5242880/3.32378e+19
+shortest game with cycle (74):
+cartes_joueur1=[4,4,6,7,5,6,1,5,7,2,2,7,2,3,]
+cartes_joueur2=[3,6,3,6,1,5,1,1,2,4,3,5,4,7,]
+longest game (2035):
+cartes_joueur1=[7,3,1,2,5,1,3,2,6,7,2,1,4,3,]
+cartes_joueur2=[4,1,5,7,6,6,3,5,4,7,6,5,2,4,]
+time: 8s
+3839 loops found after 6291456/3.32378e+19
+shortest game with cycle (74):
+cartes_joueur1=[4,4,6,7,5,6,1,5,7,2,2,7,2,3,]
+cartes_joueur2=[3,6,3,6,1,5,1,1,2,4,3,5,4,7,]
+longest game (2174):
+cartes_joueur1=[2,4,5,4,2,5,1,6,4,7,3,4,1,6,]
+cartes_joueur2=[1,7,2,3,6,5,1,6,7,7,2,3,5,3,]
+time: 9s
+4469 loops found after 7340032/3.32378e+19
+shortest game with cycle (72):
+cartes_joueur1=[7,7,2,6,2,6,1,6,4,4,7,1,3,4,]
+cartes_joueur2=[5,1,4,6,5,3,3,2,2,5,3,5,1,7,]
+longest game (2174):
+cartes_joueur1=[2,4,5,4,2,5,1,6,4,7,3,4,1,6,]
+cartes_joueur2=[1,7,2,3,6,5,1,6,7,7,2,3,5,3,]
+time: 11s
+17008 loops found after 28311552/3.32378e+19
+shortest game with cycle (72):
+cartes_joueur1=[7,7,2,6,2,6,1,6,4,4,7,1,3,4,]
+cartes_joueur2=[5,1,4,6,5,3,3,2,2,5,3,5,1,7,]
+longest game (2248):
+cartes_joueur1=[6,1,7,1,7,2,6,3,2,5,5,7,4,2,]
+cartes_joueur2=[1,4,7,3,1,3,4,4,6,5,3,2,5,6,]
+time: 45s
+17660 loops found after 29360128/3.32378e+19
+shortest game with cycle (71):
+cartes_joueur1=[4,6,7,4,7,4,5,6,1,1,6,1,2,7,]
+cartes_joueur2=[3,2,2,4,3,5,7,3,5,2,6,3,5,1,]
+longest game (2248):
+cartes_joueur1=[6,1,7,1,7,2,6,3,2,5,5,7,4,2,]
+cartes_joueur2=[1,4,7,3,1,3,4,4,6,5,3,2,5,6,]
+time: 47s
+25680 loops found after 42991616/3.32378e+19
+shortest game with cycle (70):
+cartes_joueur1=[3,7,3,4,7,3,5,7,3,5,2,4,6,2,]
+cartes_joueur2=[6,2,1,7,2,6,1,6,5,4,5,1,1,4,]
+longest game (2248):
+cartes_joueur1=[6,1,7,1,7,2,6,3,2,5,5,7,4,2,]
+cartes_joueur2=[1,4,7,3,1,3,4,4,6,5,3,2,5,6,]
+time: 71s
+33188 loops found after 55574528/3.32378e+19
+shortest game with cycle (70):
+cartes_joueur1=[3,7,3,4,7,3,5,7,3,5,2,4,6,2,]
+cartes_joueur2=[6,2,1,7,2,6,1,6,5,4,5,1,1,4,]
+longest game (2284):
+cartes_joueur1=[1,5,7,6,4,2,2,6,3,1,7,3,4,6,]
+cartes_joueur2=[2,3,1,7,6,7,3,4,5,1,4,2,5,5,]
+time: 99s
+95729 loops found after 160432128/3.32378e+19
+shortest game with cycle (51):
+cartes_joueur1=[3,6,5,4,2,7,6,4,1,5,4,3,7,2,]
+cartes_joueur2=[6,7,2,3,5,3,1,1,2,1,7,5,6,4,]
+longest game (2284):
+cartes_joueur1=[1,5,7,6,4,2,2,6,3,1,7,3,4,6,]
+cartes_joueur2=[2,3,1,7,6,7,3,4,5,1,4,2,5,5,]
+time: 313s
+102127 loops found after 170917888/3.32378e+19
+shortest game with cycle (50):
+cartes_joueur1=[6,6,3,6,5,7,1,3,1,5,4,5,2,1,]
+cartes_joueur2=[4,3,2,5,2,6,2,1,7,3,4,4,7,7,]
+longest game (2284):
+cartes_joueur1=[1,5,7,6,4,2,2,6,3,1,7,3,4,6,]
+cartes_joueur2=[2,3,1,7,6,7,3,4,5,1,4,2,5,5,]
+time: 337s
+113208 loops found after 189792256/3.32378e+19
+shortest game with cycle (47):
+cartes_joueur1=[3,1,2,2,6,2,3,6,1,7,1,1,4,6,]
+cartes_joueur2=[4,6,7,4,5,5,4,3,5,2,3,5,7,7,]
+longest game (2284):
+cartes_joueur1=[1,5,7,6,4,2,2,6,3,1,7,3,4,6,]
+cartes_joueur2=[2,3,1,7,6,7,3,4,5,1,4,2,5,5,]
+time: 374s
+136803 loops found after 229638144/3.32378e+19
+shortest game with cycle (47):
+cartes_joueur1=[3,1,2,2,6,2,3,6,1,7,1,1,4,6,]
+cartes_joueur2=[4,6,7,4,5,5,4,3,5,2,3,5,7,7,]
+longest game (2347):
+cartes_joueur1=[5,6,2,6,2,7,2,2,4,1,6,5,6,1,]
+cartes_joueur2=[7,3,7,4,3,5,1,1,4,7,3,5,4,3,]
+time: 440s
+361351 loops found after 606076928/3.32378e+19
+shortest game with cycle (47):
+cartes_joueur1=[3,1,2,2,6,2,3,6,1,7,1,1,4,6,]
+cartes_joueur2=[4,6,7,4,5,5,4,3,5,2,3,5,7,7,]
+longest game (2406):
+cartes_joueur1=[3,4,5,6,5,3,7,7,6,2,4,7,1,2,]
+cartes_joueur2=[3,2,1,5,6,3,1,2,7,4,5,4,1,6,]
+time: 1156s
+596266 loops found after 1000341504/3.32378e+19
+shortest game with cycle (47):
+cartes_joueur1=[3,1,2,2,6,2,3,6,1,7,1,1,4,6,]
+cartes_joueur2=[4,6,7,4,5,5,4,3,5,2,3,5,7,7,]
+longest game (2468):
+cartes_joueur1=[7,6,1,7,3,2,1,5,4,3,1,7,6,6,]
+cartes_joueur2=[3,2,5,4,7,6,1,5,3,4,4,5,2,2,]
+time: 1846s
+4760560 loops found after 7989100544/3.32378e+19
+shortest game with cycle (46):
+cartes_joueur1=[3,1,4,4,6,6,7,6,3,4,1,7,2,6,]
+cartes_joueur2=[7,3,5,2,1,3,2,7,2,4,1,5,5,5,]
+longest game (2468):
+cartes_joueur1=[7,6,1,7,3,2,1,5,4,3,1,7,6,6,]
+cartes_joueur2=[3,2,5,4,7,6,1,5,3,4,4,5,2,2,]
+time: 16138s
+5161653 loops found after 8663334912/3.32378e+19
+shortest game with cycle (46):
+cartes_joueur1=[3,1,4,4,6,6,7,6,3,4,1,7,2,6,]
+cartes_joueur2=[7,3,5,2,1,3,2,7,2,4,1,5,5,5,]
+longest game (2505):
+cartes_joueur1=[5,1,2,4,6,6,1,5,7,4,1,7,2,3,]
+cartes_joueur2=[5,2,7,6,4,1,5,3,2,4,7,3,6,3,]
+time: 17317s
+7742200 loops found after 12999196672/3.32378e+19
+shortest game with cycle (45):
+cartes_joueur1=[2,4,6,4,3,7,1,3,5,7,1,4,1,6,]
+cartes_joueur2=[6,5,2,2,7,2,1,7,5,3,4,5,3,6,]
+longest game (2505):
+cartes_joueur1=[5,1,2,4,6,6,1,5,7,4,1,7,2,3,]
+cartes_joueur2=[5,2,7,6,4,1,5,3,2,4,7,3,6,3,]
+time: 26527s
+7807717 loops found after 13109297152/3.32378e+19
+shortest game with cycle (44):
+cartes_joueur1=[6,5,7,2,1,2,6,5,5,3,3,1,6,7,]
+cartes_joueur2=[4,2,4,4,4,7,3,5,2,6,7,1,3,1,]
+longest game (2505):
+cartes_joueur1=[5,1,2,4,6,6,1,5,7,4,1,7,2,3,]
+cartes_joueur2=[5,2,7,6,4,1,5,3,2,4,7,3,6,3,]
+time: 26775s

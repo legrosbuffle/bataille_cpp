@@ -1,0 +1,369 @@
+exhaustive exploration C=4 V=5
+
+0 loops found after 1048576/1.5277e+11
+longest game (249):
+cartes_joueur1=[1,1,1,1,2,2,3,3,4,5,]
+cartes_joueur2=[4,5,5,5,3,4,2,2,3,4,]
+time: 0s
+0 loops found after 2097152/1.5277e+11
+longest game (257):
+cartes_joueur1=[1,1,1,1,2,2,4,4,3,5,]
+cartes_joueur2=[3,3,5,4,5,5,2,3,2,4,]
+time: 1s
+0 loops found after 3145728/1.5277e+11
+longest game (264):
+cartes_joueur1=[1,1,1,1,2,2,4,5,4,5,]
+cartes_joueur2=[2,5,5,4,3,2,3,3,3,4,]
+time: 2s
+0 loops found after 24117248/1.5277e+11
+longest game (265):
+cartes_joueur1=[1,1,1,1,3,4,2,4,5,3,]
+cartes_joueur2=[4,2,5,2,2,5,4,5,3,3,]
+time: 22s
+0 loops found after 27262976/1.5277e+11
+longest game (267):
+cartes_joueur1=[1,1,1,1,3,4,5,4,5,4,]
+cartes_joueur2=[4,3,2,2,3,5,2,3,5,2,]
+time: 25s
+0 loops found after 37748736/1.5277e+11
+longest game (288):
+cartes_joueur1=[1,1,1,1,4,3,3,5,4,4,]
+cartes_joueur2=[3,2,2,5,4,2,3,2,5,5,]
+time: 36s
+0 loops found after 38797312/1.5277e+11
+longest game (289):
+cartes_joueur1=[1,1,1,1,4,3,4,4,5,3,]
+cartes_joueur2=[3,2,2,5,4,2,5,5,3,2,]
+time: 37s
+0 loops found after 82837504/1.5277e+11
+longest game (296):
+cartes_joueur1=[1,1,1,2,2,1,5,5,4,3,]
+cartes_joueur2=[2,5,4,4,4,5,3,2,3,3,]
+time: 79s
+0 loops found after 89128960/1.5277e+11
+longest game (303):
+cartes_joueur1=[1,1,1,2,2,3,1,4,5,5,]
+cartes_joueur2=[4,2,4,5,3,3,2,5,3,4,]
+time: 85s
+0 loops found after 332398592/1.5277e+11
+longest game (308):
+cartes_joueur1=[1,1,1,3,2,1,2,5,4,5,]
+cartes_joueur2=[2,4,2,4,3,5,5,3,3,4,]
+time: 292s
+0 loops found after 357564416/1.5277e+11
+longest game (312):
+cartes_joueur1=[1,1,1,3,2,3,5,2,2,5,]
+cartes_joueur2=[4,3,5,4,3,2,5,4,4,1,]
+time: 312s
+1 loops found after 370147328/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (312):
+cartes_joueur1=[1,1,1,3,2,3,5,2,2,5,]
+cartes_joueur2=[4,3,5,4,3,2,5,4,4,1,]
+time: 321s
+216 loops found after 4294967296/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (312):
+cartes_joueur1=[1,1,1,3,2,3,5,2,2,5,]
+cartes_joueur2=[4,3,5,4,3,2,5,4,4,1,]
+time: 3471s
+270 loops found after 5336203264/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (313):
+cartes_joueur1=[1,1,3,5,5,4,3,3,2,4,]
+cartes_joueur2=[2,5,5,4,4,1,3,1,2,2,]
+time: 4296s
+305 loops found after 5473566720/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 4401s
+680 loops found after 8589934592/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 7186s
+988 loops found after 12884901888/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 11082s
+1746 loops found after 17179869184/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 14508s
+2750 loops found after 21474836480/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 18012s
+3585 loops found after 25769803776/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 21595s
+4171 loops found after 30064771072/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 25001s
+4512 loops found after 34359738368/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 28945s
+5013 loops found after 38654705664/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 32733s
+5734 loops found after 42949672960/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 36248s
+6341 loops found after 47244640256/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 40240s
+6700 loops found after 51539607552/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 44201s
+7333 loops found after 55834574848/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 47768s
+7810 loops found after 60129542144/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 51101s
+8104 loops found after 64424509440/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 54315s
+8633 loops found after 68719476736/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 57792s
+8988 loops found after 73014444032/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 61065s
+9595 loops found after 77309411328/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 63956s
+10190 loops found after 81604378624/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 67347s
+10658 loops found after 85899345920/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 70664s
+11004 loops found after 90194313216/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 74137s
+11465 loops found after 94489280512/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 77133s
+12049 loops found after 98784247808/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 79767s
+12598 loops found after 103079215104/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 82407s
+13090 loops found after 107374182400/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 85099s
+13844 loops found after 111669149696/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 87775s
+14484 loops found after 115964116992/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 90445s
+15100 loops found after 120259084288/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 93081s
+15366 loops found after 124554051584/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 95538s
+15893 loops found after 128849018880/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 98171s
+16397 loops found after 133143986176/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 100802s
+16926 loops found after 137438953472/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 103392s
+17194 loops found after 141733920768/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 106025s
+17584 loops found after 146028888064/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 108668s
+18262 loops found after 150323855360/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+time: 111300s
+18433 loops found after 152770117500/1.5277e+11
+shortest game with cycle (28):
+cartes_joueur1=[1,1,1,3,2,4,4,2,5,5,]
+cartes_joueur2=[3,3,5,5,4,4,3,1,2,2,]
+longest game (316):
+cartes_joueur1=[1,1,4,1,3,4,1,2,2,5,]
+cartes_joueur2=[5,3,5,4,3,5,3,2,4,2,]
+total time: 112826s

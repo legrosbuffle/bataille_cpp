@@ -46,3 +46,8 @@ longest game (1732):
 cartes_joueur1=[6,6,2,8,6,6,1,4,5,3,1,5,1,2,7,8,]
 cartes_joueur2=[4,3,3,7,5,7,7,3,4,4,8,2,8,5,1,2,]
 time: 47000s
+0 loops found after 38647365632/1.19523e+24
+longest game (1757):
+cartes_joueur1=[2,8,8,5,6,4,1,5,1,6,4,6,2,1,7,8,]
+cartes_joueur2=[8,1,4,2,2,3,5,5,7,7,3,7,3,3,4,6,]
+time: 93550s
